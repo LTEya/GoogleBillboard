@@ -14,7 +14,11 @@ public void draw()
 	//not needed for this assignment
 }  
 public boolean isPrime(double dNum)  
-{   
+{
+	String digits = e.substring (2,12);
+	double dNum = Double.parseDouble(digits)
+	System.out.println(dNum);
+	
   if (dnum>2){
     for (int i=2; i<=Math.sqrt(dnum);i++){
       if (dnum%i==0) return false;
@@ -24,3 +28,7 @@ public boolean isPrime(double dNum)
   if (dnum ==2) return true;
   return false; 
 } 
+
+String digits = e.substring(2,12);
+	double dNum = Double.parseDouble(digits);
+ 	System.out.println(dNum);
