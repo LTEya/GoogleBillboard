@@ -4,7 +4,7 @@ public void setup()
     for (int i=0;i<e.length();i++){
 	double sNum = 0; 
 	if (isPrime(sNum) == true){
-		System.out.println("The answer!");
+		System.out.println("sNum");
 		break;
 	}
     }
